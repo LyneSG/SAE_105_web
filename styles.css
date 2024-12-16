@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.newsletter {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #800020;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newsletter button>a{   
+    color: #ffffff;
+}
