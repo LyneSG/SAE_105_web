@@ -1,6 +1,18 @@
+*{
+    margin : 0;
+    padding: 0
+}
+
 a {
     text-decoration: none;
     color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+header{
 }
 
 .newsletter {
@@ -36,5 +48,23 @@ a {
 }
 
 @media(max-width: 768px){
-    
+    header{
+        position : sticky;
+        top:0;
+        left:0;
+        background-color: #800020;
+    }
+
+    .Logo img{
+        width: 20%;
+    }
+
+    .nav{
+        width: 80%;
+    }
+
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+    }
 }
