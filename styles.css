@@ -1,14 +1,32 @@
 *{
     margin : 0;
-    padding: 0
+    padding: 0;
+}
+
+main{
+    width:70%;
+    
+}
+.content {
+    display: flex;
+}
+aside{
+    width: 30%;
+    background-color: #800020;
 }
 
 strong{
     color: #CB0637;
 }
 
-.important{
+em{
     color: #6C063C;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
 }
 
 a {
