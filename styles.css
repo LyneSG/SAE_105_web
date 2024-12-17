@@ -7,9 +7,8 @@ strong{
     color: #CB0637;
 }
 
-em{
+.important{
     color: #6C063C;
-    text-emphasis: none;
 }
 
 a {
