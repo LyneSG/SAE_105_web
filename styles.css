@@ -61,7 +61,7 @@ ul {
         background-color: #800020; 
         display: flex;
         height: 100px;
-        position: fixed;
+        position: sticky
         top: 0;
         left: 0;
     }
