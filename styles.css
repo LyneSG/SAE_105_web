@@ -9,34 +9,34 @@
 *{
     margin : 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, h2{
-    font-family: "Mongolian Baiti";
-    text-transform: uppercase;
-    text-align: center;
+main{
+    width:70%;
+    
 }
 
-h1{
-    color:#6c063c;
-    font-size: 25px;
+.content {
+    display: flex;
 }
 
-h2{
-    font-size: 20px;
+aside{
+    width: 30%;
+    background-color: #800020;
 }
 
 strong{
     color: #CB0637;
 }
 
-strong{
-    color: #800020;
+em{
+    color: #6C063C;
+    font-style: normal;
+    font-weight: bold;
 }
 
-address{
-    text-emphasis: none;
+p{
+    text-align: justify;
 }
 
 a {
@@ -178,4 +178,9 @@ ul {
     .copyright {
         text-align: center;
     }
+}
+
+@media(max-width: 1920px){
+
+    
 }
