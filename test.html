@@ -5,6 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>TBSMB - Informations</title>
+    <style>
+        *{
+    margin : 0;
+    padding: 0
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+header{
+    background-color: #800020; 
+    display: flex;
+}
+
+.Logo{
+    width: 30%;
+}
+
+.Logo img{
+    width :100%;
+}
+
+.nav{
+    width: 70%;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{ 
+    text-align: center;
+}
+
+.nav li a{
+    display : block;
+    padding: 10px 10px;   
+    color: #e2d8d8;
+}
+
+.newsletter {
+    width: 80%;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.newsletter input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #800020;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.newsletter button>a{   
+    color: #ffffff;
+}
+
+@media(max-width: 768px){
+    .nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    main{
+        margin-bottom: 5%;
+    }
+
+    .entrainement{
+        margin-top: 4%;
+    }
+
+    .tarifs{
+        margin-top: 4%;
+    }
+
+    .newsletter{
+        margin: auto;
+    }
+
+    .compétition{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    .compétition ul li {
+        margin-top: 2%;
+    }
+
+    footer{
+        width: 100%;
+        background-color: #800020;
+    }
+
+    .partenaires{
+        display: flex;
+        width: auto;
+    }
+
+    .partenaires ul li a img{
+        width: 5%;
+        height: 5%;
+    }
+}
+    </style>
 </head>
 <body>
     <header>
@@ -59,7 +186,7 @@
 
     <aside>
         <section class="newsletter">
-            <h1>ABONNEZ-VOUS A NOTRE NEWSLETTER</h1>
+            <h1>Abonnez-vous à notre Newsletter</h1>
             <p>Recevez les dernières nouvelles et mises à jour directement dans votre boîte de réception.</p>
             <form action="#" method="post">
                 <input type="email" name="email" placeholder="Entrez votre email" required>
@@ -68,7 +195,7 @@
         </section>
 
         <section class="compétition">
-            <h1>Prochaines dates importantes</h1>
+            <h2>Prochaines dates importantes</h2>
             <ul>
                 <li><a href="Evenements.html">Championnat Départemental - 1 et 2 février - Gex(01)</a></li>
                 <li><a href="Evenements.html">Sélectif - 1 et 2 mars - La Boisse(01)</a></li>
@@ -79,17 +206,14 @@
 
 
     <footer>
-        <section class="partenaires">
-            <h1>Nos Partenaires</h1>
+        <section class="Partenaires">
+            <h2>Nos Partenaires</h2>
             <ul>
-                <li><a href="https://fftwirl.fr/" target="_blank" rel="noopener noreferrer"><img src="logo/Logo FFSTB test.jpg" alt="Logo FFSTB"></a></li>
+                <li><a href="https://fftwirl.fr/" target="_blank" rel="noopener noreferrer"><img src="logo/Logo FFSTB.jpg" alt="Logo FFSTB"></a></li>
                 <li><a href="https://www.auvergnerhonealpes.fr/" target="_blank" rel="noopener noreferrer"><img src="logo/Logo AURA.png" alt="Logo AURA"></a></li>
                 <li><a href="https://cc-miribel.fr/" target="_blank" rel="noopener noreferrer"></a><img src="logo/Logo CCMP.svg" alt="Logo CCMP"></li>
-                <li><a href="https://www.e.leclerc/mag/e-leclerc-beynost" target="_blank" rel="noopener noreferrer"></a><img src="logo/Logo Leclerc test.jpg" alt="logo Leclerc Beynost"></li>
+                <li><a href="https://www.e.leclerc/mag/e-leclerc-beynost" target="_blank" rel="noopener noreferrer"></a><img src="logo/Logo Leclerc.jpg" alt="logo Leclerc Beynost"></li>
             </ul>
-        </section>
-        <section class="copyright">
-
         </section>
     </footer>
 </body>
