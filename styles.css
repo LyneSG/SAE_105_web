@@ -20,6 +20,7 @@ h1, h2{
 
 h1{
     color:#6c063c;
+    font-size: 25px;
 }
 
 strong{
@@ -42,6 +43,10 @@ ul {
     header{
         background-color: #800020; 
         display: flex;
+        height: 100px;
+        position: fixed;
+        top: 0;
+        left: 0;
     }
     
     .Logo{
@@ -67,7 +72,8 @@ ul {
     
     .nav ul li{ 
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
+        font-weight: bold;
     }
     
     .nav li a{
@@ -79,14 +85,16 @@ ul {
 
 /*----------MAIN----------*/
     main{
+        margin : 1%;
+        margin-top: 110px;
         margin-bottom: 5%;
     }
 
-    .entrainement{
+    .Mpartie1{
         margin-top: 4%;
     }
 
-    .tarifs{
+    .Mpartie2{
         margin-top: 4%;
     }
 
