@@ -4,10 +4,11 @@
 }
 
 strong{
-    color: #800020;
+    color: #CB0637;
 }
 
-address{
+em{
+    color: #6C063C;
     text-emphasis: none;
 }
 
