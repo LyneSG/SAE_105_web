@@ -11,7 +11,15 @@
     padding: 0;
 }
 
+h1, h2{
+    color: #6C063C;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+h1{
+    font-size: 25px;
+}
 
 strong{
     color: #CB0637;
@@ -23,10 +31,6 @@ em{
     font-weight: bold;
 }
 
-p{
-    text-align: justify;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -36,7 +40,21 @@ ul {
     list-style: none;
 }
 
-
+@media(max-width: 1920px){
+    main{
+        width:70%;
+        
+    }
+    
+    .content {
+        display: flex;
+    }
+    
+    aside{
+        width: 30%;
+        background-color: #800020;
+    }
+}
 
 @media(max-width: 768px){
 /*----------HEADER----------*/
@@ -85,7 +103,8 @@ ul {
 
 /*----------MAIN----------*/
     main{
-        margin : 1%;
+        width: 100%;
+        margin : 2%;
         margin-top: 110px;
         margin-bottom: 5%;
     }
@@ -98,8 +117,16 @@ ul {
         margin-top: 4%;
     }
 
+    .evenements ul li{
+        margin-top: 2%;
+    }
+
 
 /*----------ASIDE----------*/
+    aside{
+        width: 100%;
+        background-color: white;
+    }
     .newsletter {
         width: 80%;
         background: #ffffff;
@@ -168,18 +195,3 @@ ul {
     }
 }
 
-@media(max-width: 1920px){
-    main{
-        width:70%;
-        
-    }
-    
-    .content {
-        display: flex;
-    }
-    
-    aside{
-        width: 30%;
-        background-color: #800020;
-    }
-}
