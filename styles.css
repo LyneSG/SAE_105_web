@@ -187,18 +187,18 @@ ul {
     /*----------FOOTER----------*/
     .partenaires ul {
         display: flex;
-        flex-wrap: nowrap; /* Empêche les éléments de passer à la ligne */
-        justify-content: center; /* Centre horizontalement les éléments */
-        align-items: center; /* Centre verticalement les éléments */
-        gap: 10px; /* Ajoute un espace entre les éléments */
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
         padding: 0;
         
     }
 
     .partenaires ul li {
         text-align: center;
-        margin: 0; /* Retire les marges verticales */
-        list-style: none; /* Retire les puces de liste */
+        margin: 0;
+        list-style: none;
         
     }
 
