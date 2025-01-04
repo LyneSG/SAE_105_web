@@ -48,7 +48,7 @@ main p {
 
 
 @media(max-width: 1920px){
-    /*----------HEADER----------*/
+/*----------HEADER----------*/
     header{
         background-color: #800020; 
         display: flex;
@@ -89,7 +89,7 @@ main p {
         color: #e2d8d8;
     }
     
-    /*----------ASIDE----------*/
+/*----------ASIDE----------*/
     aside{
         margin-right: 10%;
         margin-left: 5%;
@@ -139,7 +139,8 @@ main p {
         margin-top: 2%;
     }
 
-    /*----------MAIN----------*/
+
+/*----------MAIN----------*/
     main{
         width: 70%;
         margin-top: 120px;
@@ -188,7 +189,8 @@ main p {
         display: flex;
     }
 
-    /*----------FOOTER----------*/
+
+/*----------FOOTER----------*/
     .partenaires ul {
         display: flex;
         flex-wrap: nowrap;
@@ -272,6 +274,8 @@ main p {
         display: flex;
         flex-direction: column;
     }
+
+
 /*----------MAIN----------*/
     main{
         width: 100%;
