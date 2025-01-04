@@ -15,7 +15,7 @@ h1, h2{
     color: #6C063C;
     text-align: center;
     text-transform: uppercase;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 25px;
 }
 
@@ -48,6 +48,22 @@ main p {
 
 
 @media(max-width: 1920px){
+    p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 27.5px;
+    }
+
+    h3 {
+        font-size: 22.5px;
+    }
+
 /*----------HEADER----------*/
     header{
         background-color: #800020; 
