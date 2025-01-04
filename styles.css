@@ -11,7 +11,15 @@
     padding: 0;
 }
 
+h1, h2{
+    color: #6C063C;
+    text-align: center;
+    text-transform: uppercase;
+}
 
+h1{
+    font-size: 25px;
+}
 
 strong{
     color: #CB0637;
@@ -23,10 +31,6 @@ em{
     font-weight: bold;
 }
 
-p{
-    text-align: justify;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -36,6 +40,61 @@ ul {
     list-style: none;
 }
 
+@media(max-width: 1920px){
+    header{
+        background-color: #800020; 
+        display: flex;
+        position: fixed;
+        top: 0;
+    }
+
+    .Logo{
+        width: 30%;
+    }
+    
+    .Logo img{
+        width :100%;
+    }
+    
+    .nav{
+        width: 70%;
+    }
+    
+    .nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    
+    .nav ul li{ 
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .nav li a{
+        display : block;
+        padding: 10px 10px;   
+        color: #e2d8d8;
+    }
+
+    main{
+        width:70%;
+        
+    }
+    
+    .content {
+        display: flex;
+    }
+    
+    aside{
+        width: 30%;
+        background-color: #800020;
+    }
+}
 
 
 @media(max-width: 768px){
@@ -43,10 +102,15 @@ ul {
     header{
         background-color: #800020; 
         display: flex;
-        height: 100px;
         position: fixed;
+        width: 100%;
         top: 0;
         left: 0;
+        height: 100px;
+    }
+
+    .header120px{ /*Y'a des pages les titres sont trop long donc faut ralonger la hauteur du header*/
+        height: 120px;
     }
     
     .Logo{
@@ -82,24 +146,58 @@ ul {
         color: #e2d8d8;
     }
 
-
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
 /*----------MAIN----------*/
     main{
-        margin : 1%;
-        margin-top: 110px;
+        width: 100%;
+        margin : 2%;
+        margin-top: 100px;
         margin-bottom: 5%;
+    }
+
+    .main120px{
+        margin-top: 120px;
     }
 
     main section{
         margin-top: 4%;
     }
 
-    .competition ul li{
+    /*Page Evenements*/
+    .competition ul li{ 
         margin-top: 4%;
+    }
+
+    .evenements ul li{
+        margin-top: 2%;
+    }
+
+    /*Page photos*/
+    .photos_galery ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .photos_galery ul li{
+        text-align: center;
+    }
+
+    .photos_galery ul li img{
+        width: 90%;
     }
 
 
 /*----------ASIDE----------*/
+    aside{
+        width: 100%;
+        background-color: white;
+    }
     .newsletter {
         width: 80%;
         background: #ffffff;
@@ -168,60 +266,3 @@ ul {
     }
 }
 
-@media(max-width: 1920px){
-    header{
-        width: 100%;
-        background-color: #800020; 
-        display: flex;
-        height: 100px;
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-
-    .Logo{
-        width: 30%;
-    }
-    
-    .Logo img{
-        width :100%;
-    }
-    
-    .nav{
-        width: 70%;
-    }
-    
-    .nav ul{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 4%;
-        margin-bottom: 4%;
-    }
-    
-    .nav ul li{ 
-        text-align: center;
-        font-size: 14px;
-        font-weight: bold;
-    }
-    
-    .nav li a{
-        display : block;
-        padding: 10px 10px;   
-        color: #e2d8d8;
-    }
-
-    main{
-        width:70%;
-    }
-    
-    .content {
-        display: flex;
-    }
-    
-    aside{
-        width: 30%;
-        background-color: #800020;
-    }
-}
