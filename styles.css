@@ -153,8 +153,6 @@ ul {
     }
 
     /*Page photos*/
-
-    
     .photos_galery ul {
         column-count: 3; 
         column-gap: 1rem; 
@@ -176,8 +174,10 @@ ul {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
-    
-    
+    /*Page Contact*/
+    .reseaux a{
+        text-decoration: underline;
+    }
 
 
     .content {
