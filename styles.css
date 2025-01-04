@@ -42,7 +42,9 @@ ul {
     list-style: none;
 }
 
-
+main>p {
+    text-align: justify;
+}
 
 @media(max-width: 1920px){
     /*----------HEADER----------*/
