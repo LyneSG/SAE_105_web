@@ -67,27 +67,24 @@ main p {
     }
     
     .nav{
-        width: 70%;
+        width: 80%;
     }
-    
+
     .nav ul{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
-        margin-top: 4%;
-        margin-bottom: 4%;
+        width: 100%;
+        margin: 2%;
     }
     
     .nav ul li{ 
-        text-align: center;
-        font-size: 14px;
+        font-size: 40px;
         font-weight: bold;
+        margin-left: 5%;   
     }
     
     .nav li a{
         display : block;
-        padding: 10px 10px;   
         color: #e2d8d8;
     }
     
