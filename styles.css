@@ -41,17 +41,19 @@ ul {
 }
 
 @media(max-width: 1920px){
+    /*----------HEADER----------*/
     header{
         background-color: #800020; 
         display: flex;
         position: fixed;
-        top: 0;
         width: 100%;
+        top: 0;
+        left: 0;
         height: 100px;
     }
-
+    
     .Logo{
-        width: 100px;
+        width: 120px;
     }
     
     .Logo img{
@@ -64,6 +66,7 @@ ul {
     
     .nav ul{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         margin-top: 4%;
@@ -80,16 +83,6 @@ ul {
         display : block;
         padding: 10px 10px;   
         color: #e2d8d8;
-    }
-
-    main{
-        margin-left: 10%;
-        width:70%;
-        margin-top: 120px;
-    }
-    
-    .content {
-        display: flex;
     }
     
     /*----------ASIDE----------*/
@@ -140,6 +133,55 @@ ul {
 
     .compétition ul li {
         margin-top: 2%;
+    }
+
+    /*----------MAIN----------*/
+    main{
+        width: 70%;
+        margin-top: 120px;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+
+    /*Page Evenements*/
+    .competition ul li{ 
+        margin-top: 4%;
+    }
+
+    .evenements ul li{
+        margin-top: 2%;
+    }
+
+    /*Page photos*/
+
+    
+    .photos_galery ul {
+        column-count: 3; 
+        column-gap: 1rem; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .photos_galery ul li {
+        break-inside: avoid; 
+        margin-bottom: 1rem; 
+    }
+    
+    .photos_galery ul li img {
+        width: 100%; 
+        height: auto; 
+        display: block;
+        border-radius: 0.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    
+
+
+    .content {
+        display: flex;
     }
 }
 
